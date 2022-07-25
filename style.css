@@ -8,6 +8,15 @@ h1, h2, h3, h4, h5 {
     font-family: 'Ubuntu', sans-serif;
 }
 
+a {
+    color: red;
+    text-decoration: none;
+    padding: 2px;
+}
+a:hover {
+    text-decoration: underline;
+}
+
 h1 {
     font-size: xx-large;
 }
@@ -22,6 +31,7 @@ h3, h4, h5 {
 
 header, main, footer {
     min-width: 855px;
+    padding: 10px;
 }
 
 header .container, main .container, footer .container {
@@ -57,6 +67,10 @@ main .left {
 main .right {
     float: right;
     width: 285px;
+}
+
+main h2, main p, main ul, main h3, main img {
+    padding: 10px;
 }
 
 footer {
